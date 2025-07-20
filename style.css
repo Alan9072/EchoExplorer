@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000; /* Black background for high contrast */
+    color: #FFF; /* White text */
+    margin: 0;
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    max-width: 90%;
+    width: 600px; /* Max width for larger screens */
+    max-height: 90vh;
+}
+
+h1 {
+    font-size: 2em; /* Large heading */
+    color: #0F0; /* Bright green for visibility */
+    margin-bottom: 20px;
+}
+
+#instruction {
+    font-size: 1.8em; /* Large, readable instruction text */
+    margin-bottom: 30px;
+    min-height: 2em; /* Ensure space even when empty */
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Space between buttons */
+    margin-bottom: 30px;
+}
+
+.sound-spot {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background-color: #555; /* Dark gray for buttons */
+    border: 5px solid #0F0; /* Bright green border (default) */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s; /* Smooth transitions */
+    font-size: 0; /* Hide any default button text */
+    outline: none; /* Remove default browser focus outline */
+}
+
+/* Hover effect */
+.sound-spot:hover {
+    background-color: #777; /* Lighter on hover */
+    border-color: #FF0; /* Yellow border on hover */
+}
+
+/* Focus effect (for keyboard navigation) */
+.sound-spot:focus {
+    background-color: #777; /* Lighter on focus */
+    border-color: #FF0; /* Yellow border on focus */
+}
+
+
+#reset-button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: none;;
+}
+
+#reset-button:hover,
+#reset-button:focus {
+    background-color: #0056b3;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Echo Explorer</h1>
+        <p id="instruction" aria-live="polite">Listen carefully...</p>
+        <div class="grid-area" id="grid-area">
+            </div>
+        <button id="reset-button" aria-label="Start new game">New Game</button>
+    </div>
+
+    <audio id="sound-dog" src="assets/dog.wav" preload="auto"></audio>
+    <audio id="sound-cat" src="assets/cat.wav" preload="auto"></audio>
+    <audio id="sound-bird" src="assets/bird.wav" preload="auto"></audio>
+    <audio id="sound-bell" src="assets/bell.wav" preload="auto"></audio>
+    <audio id="sound-water" src="assets/water.wav" preload="auto"></audio>
+    <audio id="sound-car" src="assets/car.wav" preload="auto"></audio>
+    <audio id="sound-correct" src="assets/correct.wav" preload="auto"></audio>
+    <audio id="sound-incorrect" src="assets/incorrect.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
