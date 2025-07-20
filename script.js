@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sounds = {
         dog: document.getElementById('sound-dog'),
         cat: document.getElementById('sound-cat'),
-        bird: document.getElementById('sound-bird'),
+        peacock: document.getElementById('sound-peacock'),
         bell: document.getElementById('sound-bell'),
         water: document.getElementById('sound-water'),
         car: document.getElementById('sound-car'),
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         incorrect: document.getElementById('sound-incorrect')
     };
 
-    const soundNames = ['dog', 'cat', 'bird', 'bell', 'water', 'car'];
+    const soundNames = ['dog', 'cat', 'peacock', 'bell', 'water', 'car'];
     let currentTargetSound = '';
     let utterance = null;
     let currentPreviewSound = null;
@@ -160,7 +160,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', startGame);
     
-    setTimeout(() => {
-        startGame();
-    }, 300);
+    startGame();
 });
