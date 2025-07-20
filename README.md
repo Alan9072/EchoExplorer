@@ -33,4 +33,4 @@ To run this project locally:
 2.  Navigate to the project directory: `cd echo-explorer`
 3.  Open `index.html` in your web browser. Ensure you have the `assets` folder with the `.mp3` files.
 
-## Project Structure
+

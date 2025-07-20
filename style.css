@@ -101,10 +101,10 @@ h1 {
     content: '🐱';
 }
 
-.sound-spot[data-sound="bird"] {
+.sound-spot[data-sound="peacock"] {
     background-color: #87CEEB; /* Sky Blue */
 }
-.sound-spot[data-sound="bird"]::before {
+.sound-spot[data-sound="peacock"]::before {
     content: '🐦';
 }
 
@@ -127,6 +127,20 @@ h1 {
 }
 .sound-spot[data-sound="car"]::before {
     content: '🚗';
+}
+
+.sound-spot[data-sound="rooster"] {
+    background-color: #FFA500; /* Orange */
+}
+.sound-spot[data-sound="rooster"]::before {
+    content: '🐓';
+}
+
+.sound-spot[data-sound="sheep"] {
+    background-color: #C0C0C0; /* Silver */
+}
+.sound-spot[data-sound="sheep"]::before {
+    content: '🐑';
 }
 
 /* Hover effect */
