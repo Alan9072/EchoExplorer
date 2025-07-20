@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     instructionElement.textContent = "Congratulations! You found it!";
 
                     playSound('correct');
-                    speak(`You found the ${soundName}! Great job!`, () => {
+                    speak(`You found the ${soundName}! Great job! Click 'Next Round' or press any key to continue.`, () => {
                         button.blur();
                         showRestartOption();
                     });
