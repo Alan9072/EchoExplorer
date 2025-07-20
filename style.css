@@ -3,11 +3,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background-color: #ffffff; /* Black background for high contrast */
     color: #FFF; /* White text */
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    overflow-y: auto; /* Allow vertical scrolling if needed */
 }
 
 .game-container {
@@ -16,9 +18,8 @@ body {
     background-color: #333;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-    max-width: 90%;
-    width: 600px; /* Max width for larger screens */
-    max-height: 90vh;
+    width: 90vw; /* Max width for larger screens */
+    height: 90vh;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
 
 .sound-spot {
     width: 100%;
-    padding-top: 100%;
+    height: 200px;
     position: relative;
     background-color: #555; /* Default background */
     border: 5px solid rgb(0, 174, 255);
@@ -232,6 +233,7 @@ h1 {
     .sound-spot {
         border: 2px solid rgb(0, 174, 255);
         border-radius: 8px;
+        height: 200px;
     }
 
     .sound-spot::before {
