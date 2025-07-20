@@ -4,7 +4,7 @@
 Echo Explorer is a web-based game designed for children with visual impairment. It provides an engaging and accessible experience where players rely entirely on auditory cues and spoken instructions to interact and succeed. The game's core principle is "auditory primacy," ensuring equal play for children who cannot rely on visual information.
 
 ## Live Demo
-[YOUR_VERCEL_OR_NETLIFY_LINK_HERE]
+https://echo-explorer-ten.vercel.app/
 
 ## How to Play
 1.  The game will speak an instruction, asking you to "Find the [sound name]!" (e.g., "Find the dog!").
