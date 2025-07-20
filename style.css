@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-size: 2em; /* Large heading */
-    color: rgb(0, 140, 255); /* Bright green for visibility */
+    color: rgb(246, 231, 32); /* Bright green for visibility */
     margin-bottom: 20px;
 }
 
@@ -35,6 +35,7 @@ h1 {
     font-size: 1.8em; /* Large, readable instruction text */
     margin-bottom: 30px;
     min-height: 2em; /* Ensure space even when empty */
+    color: red;
 }
 
 .grid-area {
@@ -50,7 +51,7 @@ h1 {
     height: 180px;
     position: relative;
     background-color: #555; /* Default background */
-    border: 5px solid rgb(0, 174, 255);
+    border: 7px solid rgb(255, 0, 0);
     border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.2s, border-color 0.2s;
@@ -159,8 +160,8 @@ h1 {
 
 
 #reset-button {
-    background-color: #007bff; /* Blue button */
-    color: white;
+    background-color: rgb(246, 32, 32); /* Blue button */
+    color: rgb(222, 242, 11);
     padding: 15px 30px;
     font-size: 1.5em;
     border: none;
