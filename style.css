@@ -39,7 +39,8 @@ h1 {
 
 .grid-area {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for 8 boxes */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
     grid-gap: 20px; /* Space between buttons */
     margin-bottom: 30px;
 }

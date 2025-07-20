@@ -10,21 +10,23 @@ document.addEventListener('DOMContentLoaded', () => {
         bell: document.getElementById('sound-bell'),
         water: document.getElementById('sound-water'),
         car: document.getElementById('sound-car'),
+        rooster: document.getElementById('sound-rooster'),
+        sheep: document.getElementById('sound-sheep'),
         correct: document.getElementById('sound-correct'),
         incorrect: document.getElementById('sound-incorrect')
     };
 
-    const soundNames = ['dog', 'cat', 'peacock', 'bell', 'water', 'car'];
+    const soundNames = ['dog', 'cat', 'peacock', 'bell', 'water', 'car', 'rooster', 'sheep'];
     let currentTargetSound = '';
     let utterance = null;
     let currentPreviewSound = null;
     let gameStarted = false;
     let buttonsEnabled = false;
 
-    // Define the 6 possible grid positions (row, column)
+    // Define the 8 possible grid positions (row, column)
     const gridPositions = [
-        { row: 1, col: 1 }, { row: 1, col: 2 }, { row: 1, col: 3 },
-        { row: 2, col: 1 }, { row: 2, col: 2 }, { row: 2, col: 3 }
+        { row: 1, col: 1 }, { row: 1, col: 2 }, { row: 1, col: 3 }, { row: 1, col: 4 },
+        { row: 2, col: 1 }, { row: 2, col: 2 }, { row: 2, col: 3 }, { row: 2, col: 4 }
     ];
 
     // --- Helper Functions (unchanged) ---
